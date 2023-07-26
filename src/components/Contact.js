@@ -23,7 +23,7 @@ function Contact() {
         }}
       >
         <div
-          className="container"
+          className="container col-sm-12 col-mb-12 col-lg-6 col-xxl-6 col-xl-6"
           style={{ display: "flex", fontFamily: "initial" }}
         >
           <button
