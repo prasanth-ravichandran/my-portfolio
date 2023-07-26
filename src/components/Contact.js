@@ -23,7 +23,7 @@ function Contact() {
         }}
       >
         <div
-          className="container col-sm-12 col-mb-12 col-lg-6 col-xxl-6 col-xl-6"
+          className="container "
           style={{ display: "flex", fontFamily: "initial" }}
         >
           <button
@@ -123,7 +123,7 @@ function Contact() {
           initial={{ opacity: 0, y: 300 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: "1.2", ease: "easeOut" }}
-          className="container contact col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
+          className="container contact "
           style={{
             backgroundColor: "#A9A7A74C",
             boxSizing: "border-box",
