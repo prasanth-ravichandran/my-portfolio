@@ -24,7 +24,7 @@ function Project() {
           fontFamily: "initial",
         }}
       >
-        <div className="container col-sm-12 col-md-12 col-lg-6 col-xxl-6 col-xl-6" style={{ display: "flex" }}>
+        <div className="container" style={{ display: "flex" }}>
           <button
             className="navbar-toggler"
             type="button"
@@ -115,7 +115,7 @@ function Project() {
       </motion.nav>
       <div style={{ opacity: "1" }}>
         <motion.div
-          className="container project mt-3 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
+          className="container project "
           initial={{ opacity: "0", y: 300 }}
           animate={{ opacity: "1", y: 15 }}
           transition={{ ease: "easeOut", duration: "1.5" }}
