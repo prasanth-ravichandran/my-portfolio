@@ -251,7 +251,7 @@ function Project() {
                   className="col-4 mt-5 mb-5"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <a href="https://github.com/prasanth-ravichandran/Form_Validation">
+                  <a href="https://github.com/prasanth-ravichandran/Form-Validation">
                     {" "}
                     <img
                       src={Form_Validation}
