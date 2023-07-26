@@ -214,7 +214,7 @@ function Project() {
                   className="col-4 mt-5 mb-5"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <a href="https://github.com/prasanth-ravichandran/crud">
+                  <a href="	https://student-portal-site.vercel.app">
                     {" "}
                     <img
                       src={CRUDOperation}
@@ -233,7 +233,7 @@ function Project() {
                   className="col-4 mt-5 mb-5"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <a href="https://github.com/prasanth-ravichandran/Projectreact">
+                  <a href="	https://e-commerce-shop-prasanth.netlify.app">
                     {" "}
                     <img
                       src={ECOMMERCE}
