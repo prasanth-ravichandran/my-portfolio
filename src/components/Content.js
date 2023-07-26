@@ -22,7 +22,7 @@ function Content() {
         }}
       >
         <div
-          className="container"
+          className="container col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
           style={{ display: "flex", fontFamily: "initial" }}
         >
           <button
@@ -117,7 +117,7 @@ function Content() {
         initial={{ opacity: 0, y: 300 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ ease: "easeOut", duration: "1.5" }}
-        className="Content"
+        className="Content col-sm-12 col-md-12 col-lg-6 col-xxl-6 col-xl-6"
         style={{ position: "absolute", top: "40%", left: "40%" }}
       >
         <h3
