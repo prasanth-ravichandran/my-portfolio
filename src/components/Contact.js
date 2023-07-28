@@ -200,7 +200,7 @@ function Contact() {
               </h4>
               <h4 className="phone">
                 <i class="fa fa-phone-square" aria-hidden="true"></i>
-                +918807072604
+                +916381775603
               </h4>
               <h4 className="location">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
