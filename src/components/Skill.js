@@ -33,7 +33,7 @@ function Skill() {
         }}
       >
         <div
-          className="container"
+          className="container "
           style={{ display: "flex", fontFamily: "initial" }}
         >
           <button
@@ -126,7 +126,7 @@ function Skill() {
       </motion.nav>
       <motion.div className="SkillSet">
         <motion.div
-          className="container"
+          className="container "
           initial={{ y: 300, opacity: 0 }}
           animate={{ y: 18, opacity: 1 }}
           transition={{ ease: "easeOut", duration: "1" }}
@@ -198,7 +198,7 @@ function Skill() {
             }}
           >
             <div
-              className="Skill-content  mt-3 mb-5 "
+              className="Skill-content mt-3 mb-5 "
               style={{
                 display: "flex",
                 justifyContent: "center",

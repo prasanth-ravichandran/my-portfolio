@@ -26,7 +26,7 @@ function AboutMe() {
         }}
       >
         <div
-          className="container"
+          className="container "
           style={{ display: "flex", fontFamily: "initial" }}
         >
           <button
@@ -122,7 +122,7 @@ function AboutMe() {
         </div>
       </motion.nav>
 
-      <div className="container">
+      <div className="container ">
         <motion.div
           initial={{ y: 300, opacity: 0 }}
           animate={{ y: 20, opacity: 1 }}

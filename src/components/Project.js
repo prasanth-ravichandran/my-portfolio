@@ -121,7 +121,7 @@ function Project() {
       </motion.nav>
       <div style={{ opacity: "1" }}>
         <motion.div
-          className="container project mt-3 "
+          className="container project"
           initial={{ opacity: "0", y: 300 }}
           animate={{ opacity: "1", y: 15 }}
           transition={{ ease: "easeOut", duration: "1.5" }}
@@ -220,7 +220,7 @@ function Project() {
                   className="col-4 mt-5 mb-5"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <a href="https://github.com/prasanth-ravichandran/crud">
+                  <a href="	https://student-portal-site.vercel.app">
                     {" "}
                     <img
                       src={CRUDOperation}
@@ -239,7 +239,7 @@ function Project() {
                   className="col-4 mt-5 mb-5"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <a href="https://github.com/prasanth-ravichandran/Projectreact">
+                  <a href="	https://e-commerce-shop-prasanth.netlify.app">
                     {" "}
                     <img
                       src={ECOMMERCE}
@@ -257,7 +257,7 @@ function Project() {
                   className="col-4 mt-5 mb-5"
                   whileHover={{ scale: 1.2 }}
                 >
-                  <a href="https://github.com/prasanth-ravichandran/Form_Validation">
+                  <a href="https://github.com/prasanth-ravichandran/Form-Validation">
                     {" "}
                     <img
                       src={Form_Validation}
