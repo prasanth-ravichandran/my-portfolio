@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import call from "../assets/call.gif";
 import github from "../assets/github.png";
 import link from "../assets/link..gif";
 import { motion } from "framer-motion";
+import { Offcanvas, OffcanvasBody } from "reactstrap";
 
 function Contact() {
+  const [show, setshow] = useState(false);
+  const handleOffCanvas = () => {
+    setshow(!show);
+  };
   return (
     <>
       <motion.nav
@@ -210,6 +215,41 @@ function Contact() {
           </div>
         </motion.div>
       </div>
+      <Offcanvas
+        isOpen={show}
+        toggle={handleOffCanvas}
+        style={{ backgroundColor: "rgb(206, 206, 206, 0.5)" }}
+      >
+        <OffcanvasBody>
+          <div className="container">
+            <div className=" mb-3 mt-3 nav-item">
+              <a className="nav-link" href="/">
+                Home
+              </a>
+            </div>
+            <div className="mb-3 nav-item">
+              <a className="nav-link" href="/about">
+                About
+              </a>
+            </div>
+            <div className="mb-3 nav-item">
+              <a className="nav-link" href="/skill">
+                Skill
+              </a>
+            </div>
+            <div className="mb-3 nav-item">
+              <a className="nav-link" href="/project">
+                Project
+              </a>
+            </div>
+            <div className="mb-3 nav-item">
+              <a className="nav-link" href="/contact">
+                Contact
+              </a>
+            </div>
+          </div>
+        </OffcanvasBody>
+      </Offcanvas>
     </>
   );
 }
