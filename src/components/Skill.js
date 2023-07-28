@@ -236,7 +236,7 @@ function Skill() {
                         </p>
                         <div
                           className="progress-bar  "
-                          style={{ marginLeft: "40px" }}
+                          style={{ marginLeft: "80px" }}
                         >
                           <span className="percentage html ">90%</span>
                         </div>
@@ -262,7 +262,7 @@ function Skill() {
                         </p>
                         <div
                           className="progress-bar"
-                          style={{ marginLeft: "40px" }}
+                          style={{ marginLeft: "80px" }}
                         >
                           <span className="percentage css">85%</span>
                         </div>
@@ -288,7 +288,7 @@ function Skill() {
                         </p>
                         <div
                           className="progress-bar"
-                          style={{ marginLeft: "40px" }}
+                          style={{ marginLeft: "80px" }}
                         >
                           <span className="percentage boot">80%</span>
                         </div>
@@ -310,7 +310,7 @@ function Skill() {
                         </p>
                         <div
                           className="progress-bar"
-                          style={{ marginLeft: "40px" }}
+                          style={{ marginLeft: "80px" }}
                         >
                           <span className="percentage js">70%</span>
                         </div>
@@ -336,7 +336,7 @@ function Skill() {
                         </p>
                         <div
                           className="progress-bar"
-                          style={{ marginLeft: "40px" }}
+                          style={{ marginLeft: "80px" }}
                         >
                           <span className="percentage react">75%</span>
                         </div>
@@ -362,7 +362,7 @@ function Skill() {
                         </p>
                         <div
                           className="progress-bar"
-                          style={{ marginLeft: "40px" }}
+                          style={{ marginLeft: "80px" }}
                         >
                           <span className="percentage react">65%</span>
                         </div>
