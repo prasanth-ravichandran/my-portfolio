@@ -258,7 +258,7 @@ function Skill() {
                         <p
                           className="skill-name fs-5 fw-bolder"
                           style={{
-                            marginLeft: "23px",
+                            marginLeft: "18px",
                             fontFamily: "cursive",
                             color: "#000000",
                           }}
