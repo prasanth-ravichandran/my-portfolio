@@ -12,6 +12,7 @@ function Contact() {
   };
   return (
     <>
+    <div className="CONTENT">
       <motion.nav
         className="navbar navbar-expand-lg nav text-warning "
         id="NavBar"
@@ -215,6 +216,7 @@ function Contact() {
           </div>
         </motion.div>
       </div>
+                  </div>
       <Offcanvas
         isOpen={show}
         toggle={handleOffCanvas}
@@ -250,6 +252,7 @@ function Contact() {
           </div>
         </OffcanvasBody>
       </Offcanvas>
+        
     </>
   );
 }
