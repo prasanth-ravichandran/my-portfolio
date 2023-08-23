@@ -14,6 +14,7 @@ function Project() {
   };
   return (
     <>
+    <div className="CONTENT">
       <motion.nav
         className="navbar navbar-expand-lg nav text-warning "
         id="NavBar"
@@ -311,6 +312,7 @@ function Project() {
           </div>
         </OffcanvasBody>
       </Offcanvas>
+        </div>
     </>
   );
 }
