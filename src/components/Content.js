@@ -10,6 +10,7 @@ function Content() {
   };
   return (
     <>
+    <div className="CONTENT">
       <motion.nav
         className="navbar navbar-expand-lg nav text-dark "
         id="NavBar"
@@ -228,6 +229,7 @@ function Content() {
           </div>
         </OffcanvasBody>
       </Offcanvas>
+        </div>
     </>
   );
 }
