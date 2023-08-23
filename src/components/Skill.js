@@ -17,6 +17,7 @@ function Skill() {
   };
   return (
     <>
+    <div className="CONTENT">
       <motion.nav
         className="navbar navbar-expand-lg nav text-warning "
         id="NavBar"
@@ -415,6 +416,7 @@ function Skill() {
           </div>
         </OffcanvasBody>
       </Offcanvas>
+        </div>
     </>
   );
 }
